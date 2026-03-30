@@ -1,0 +1,93 @@
+site_name: Zero to Hero IT
+site_description: Guida di domande da colloquio tecnico in italiano.
+site_url: ""
+
+plugins:
+  - search:
+      lang: it
+      separator: '[\s\-\.]+'
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+
+theme:
+  name: material
+  language: it
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Passa al tema scuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Passa al tema chiaro
+  features:
+    # navigation.tabs disabilitato: con tabs + sections Material non espone toggle collassabili
+    # per FE/BE/Database nella sidebar desktop (solo etichette, sottomenu non apribili).
+    # Senza tabs: sidebar con Guide, Glossario, ecc. e gruppi annidati apribili/chiudibili.
+    - navigation.sections
+    # Senza navigation.expand: percorso attivo espanso; altre sezioni collassate (comportamento predefinito).
+    - navigation.path
+    - navigation.footer
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.copy
+  icon:
+    repo: fontawesome/brands/github
+
+nav:
+  - Guide:
+    - Panoramica: index.md
+    - Per nuove risorse: per-nuove-risorse.md
+    - Frontend:
+      - JavaScript: javascript.md
+      - TypeScript: typescript.md
+      - Angular: angular.md
+      - React: react.md
+      - Vue.js: vue.md
+    - Backend:
+      - Java: java.md
+      - Spring Boot: springboot.md
+      - Go: go.md
+      - Python: python.md
+      - Django: django.md
+      - FastAPI: fastapi.md
+      - Node.js: nodejs.md
+    - Database:
+      - Database: database.md
+      - PostgreSQL: postgresql.md
+      - Oracle DB: oracle-db.md
+      - MongoDB: mongodb.md
+    - Architettura e integrazione:
+      - Architettura: architettura.md
+      - Sicurezza: sicurezza.md
+      - GraphQL: graphql.md
+      - Redis e cache: redis-cache.md
+      - Kafka: kafka.md
+      - RabbitMQ: rabbitmq.md
+    - DevOps:
+      - Docker: docker.md
+      - Kubernetes: kubernetes.md
+      - OpenShift: openshift.md
+      - Pipeline: pipeline.md
+      - Helm: helm.md
+  - Glossario: glossario.md
+  - Percorsi di studio: percorsi.md
+  - Verifica te stesso: verifica-te-stesso.md
