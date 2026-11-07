@@ -1,6 +1,8 @@
 site_name: Zero to Hero IT
 site_description: Guida di domande da colloquio tecnico in italiano.
-site_url: ""
+site_url: https://damianp99.github.io/dev-library/
+repo_url: https://github.com/Damianp99/dev-library
+repo_name: Damianp99/dev-library
 
 plugins:
   - search:
@@ -53,6 +55,11 @@ theme:
     repo: fontawesome/brands/github
 
 nav:
+  - Inizia qui:
+    - Primi passi: primi-passi.md
+    - Strumenti: strumenti.md
+    - Git e commit: git.md
+    - HTML, CSS e Tailwind: html-css-tailwind.md
   - Guide:
     - Panoramica: index.md
     - Per nuove risorse: per-nuove-risorse.md

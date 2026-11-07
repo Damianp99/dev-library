@@ -18,12 +18,13 @@ Questa sezione rende la guida utile a **chi entra in azienda** e deve apprendere
 
 ## Come usare la guida per apprendere
 
-1. **Identifica il tuo ruolo** (Backend, Frontend, Full-stack, DevOps) e apri i **[Percorsi di studio](percorsi.md)**: usa la checklist come piano di lettura.
-2. **Parti dalle basi**: linguaggio e framework del tuo stack (es. Java + Spring Boot, oppure JavaScript + React). Evita di saltare ai temi “avanzati” (es. Kafka, CQRS) senza aver consolidato REST, DB e concetti di servizi.
-3. **Usa l’indice interno** di ogni guida: ogni pagina ha link alle sezioni; salta alle voci che ti servono per il contesto in cui lavori.
-4. **Verifica te stesso**: dopo aver letto un blocco di guide, usa **[Verifica te stesso](verifica-te-stesso.md)** per richiamare i concetti a mente; apri la risposta solo dopo aver provato a rispondere.
-5. **Glossario**: quando incontri un termine nuovo, cercalo nel **[Glossario](glossario.md)** per una definizione breve e il link alla guida di riferimento.
-6. **Ricerca**: usa la ricerca del sito (icona lente) per trovare un concetto in tutte le guide (es. “idempotenza”, “consumer group”).
+1. Se manca l’ambiente (Git, editor, Node.js, Python), parti da **[Primi passi](primi-passi.md)**. Questa pagina spiega come studiare, non come installare.
+2. **Identifica il tuo ruolo** (Backend, Frontend, Full-stack, DevOps) e apri i **[Percorsi di studio](percorsi.md)**: usa la checklist come piano di lettura.
+3. **Parti dalle basi**: linguaggio e framework del tuo stack (es. Java + Spring Boot, oppure JavaScript + React). Evita di saltare ai temi “avanzati” (es. Kafka, CQRS) senza aver consolidato REST, DB e concetti di servizi.
+4. **Usa l’indice interno** di ogni guida: ogni pagina ha link alle sezioni; salta alle voci che ti servono per il contesto in cui lavori.
+5. **Verifica te stesso**: dopo aver letto un blocco di guide, usa **[Verifica te stesso](verifica-te-stesso.md)** per richiamare i concetti a mente; apri la risposta solo dopo aver provato a rispondere.
+6. **Glossario**: quando incontri un termine nuovo, cercalo nel **[Glossario](glossario.md)** per una definizione breve e il link alla guida di riferimento.
+7. **Ricerca**: usa la ricerca del sito (icona lente) per trovare un concetto in tutte le guide (es. “idempotenza”, “consumer group”).
 
 ---
 

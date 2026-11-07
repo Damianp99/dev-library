@@ -9,6 +9,7 @@ Questa guida supporta la **preparazione ai colloqui tecnici** e il **ripasso** p
 
 ## Come usare la guida
 
+- Se il computer non è ancora pronto, segui **[Primi passi](primi-passi.md)**: account GitHub, Git, editor, Node.js, Python e la prima pagina web.
 - Le guide sono organizzate per **macro-area**: Frontend, Backend, Database, Architettura e integrazione, DevOps (es. Guide > Backend > Java, Guide > DevOps > Docker).
 - Scegli un **set** in base al tuo ruolo o alla tecnologia richiesta (vedi sotto).
 - Usa i **[Percorsi di studio](percorsi.md)** come checklist per ruolo (Backend, Frontend, Full-stack, DevOps).

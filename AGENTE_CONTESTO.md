@@ -1,6 +1,6 @@
 # AGENTE_CONTESTO
 
-Ultimo aggiornamento: 30/03/2026
+Ultimo aggiornamento: 07/11/2026
 
 ## Indice
 - [1. Stato attuale](#1-stato-attuale)
@@ -10,6 +10,8 @@ Ultimo aggiornamento: 30/03/2026
 
 ## 1. Stato attuale
 - Il repository contiene una guida tecnica in italiano per preparazione colloqui e onboarding, organizzata per macro-aree: Frontend, Backend, Database, Architettura e integrazione, DevOps.
+- È presente un percorso operativo "Inizia qui" (Primi passi, Strumenti, Git e commit, HTML/CSS/Tailwind) che rimanda alle guide esistenti senza riscriverle.
+- Il sito si pubblica su GitHub Pages da repo pubblico, all'indirizzo https://damianp99.github.io/dev-library/, tramite `.github/workflows/pages.yml`. La cartella `site/` è in `.gitignore`.
 - La documentazione vive in `docs/` ed e pubblicata tramite MkDocs Material con configurazione centrale in `mkdocs.yml`.
 - Le guide coprono stack e temi principali gia presenti nel sito: JavaScript, TypeScript, Angular, React, Vue, Java, Spring Boot, Go, Python, Django, FastAPI, Database, PostgreSQL, Oracle DB, MongoDB, Architettura, Sicurezza, GraphQL, Redis, Kafka, RabbitMQ, Docker, Kubernetes, OpenShift, Pipeline, Helm.
 - L'avvio locale e previsto via `run.ps1`, che installa le dipendenze Python da `requirements.txt` e lancia `mkdocs serve` con watch su `docs` e `styles.css`.
@@ -28,10 +30,11 @@ Ultimo aggiornamento: 30/03/2026
 | Data | Cosa | Come | Perché |
 |------|------|------|---------|
 | 30/03/2026 | Bootstrap contesto progetto | Sintesi iniziale derivata da `README.md`, `docs/index.md`, `docs/per-nuove-risorse.md`, `mkdocs.yml` e `scripts/verify-snippets/README.md` | Fornire handoff operativo affidabile agli agenti successivi e allineare il contesto allo stato reale del repo |
+| 07/11/2026 | Percorso da zero e GitHub Pages | Pagine `primi-passi`, `strumenti`, `git`, `html-css-tailwind`; workflow Pages; repo pubblico | Setup operativo condivisibile, senza duplicare le guide da colloquio |
 
 ## 4. Prossimi passi
 1. Verificare e sistemare il versionamento Git: capire se il remote va ripristinato o ridefinito e portare i file attuali sotto versionamento coerente.
 2. Formalizzare la validazione snippet oltre JavaScript, iniziando da Python e Go, con script/versioni di riferimento esplicite.
-3. Valutare l'aggiornamento di `.gitignore` per artefatti generati come `site/` se non devono essere committati.
+3. ~~Valutare l'aggiornamento di `.gitignore` per artefatti generati come `site/` se non devono essere committati.~~ Fatto: `site/` è ignorato.
 4. Continuare il mantenimento editoriale delle guide: revisioni periodiche di versioni, link interni, trade-off e coerenza tra percorsi, glossario e verifica.
 5. Valutare una CI minima per `mkdocs build` e per gli script di verifica snippet gia disponibili.

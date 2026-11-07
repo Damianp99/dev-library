@@ -4,6 +4,8 @@ Usa questa pagina come **checklist** per prepararti al colloquio. Segna le guide
 
 L’ordine suggerito è per **ruolo**; adatta in base all’annuncio e al livello (junior / mid / senior). Le guide sono in **Guide** per macro-area (es. Guide > Database > PostgreSQL).
 
+Se Git, l’editor o i runtime non sono ancora installati, completa prima **[Primi passi](primi-passi.md)**.
+
 ---
 
 ## Indice
